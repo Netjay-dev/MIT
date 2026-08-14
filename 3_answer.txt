@@ -1,0 +1,13 @@
+2.	Give a pseudocode for deciding whether three given line segments of lengths x, y and z can form a triangle, 
+and if so whether it is a right–angled, obtuse-angled, or an acute-angled triangle. 
+Make sure that you minimize the total number operations (arithmetic and comparisons of data-items).
+
+Steps:
+    1 - Read a, b, m from input and set m as the highest value among the three variables.
+    2 - IF a + b is lesser than or equal to m then return 'Not a Triangle' and end.
+    3 - Set mSquare as m*m.
+    4 - Set abSquare as ((a*a) + (b*b)).
+    5 - If mSquare is equals to abSquare then return "Right-angled triangle" and end. 
+    6 - If abSquare < mSquare then return "Obtuse-angled triangle" and end.
+    7 - return "Acute-angled triangle".
+    8 - end.
